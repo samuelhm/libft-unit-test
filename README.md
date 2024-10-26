@@ -1,7 +1,10 @@
 # 🤖 Important information 🤖
 Esto es una versión adaptada para:
+
 1-Incluir el test como submodulo de libft dentro del repositorio de este
+
 2-Reparar el error del ultimo test de ft_lstdelone (hacía double free en caso de proteger NULL de del)
+
 3-Crear un script para generar automaticamente la libreria libft.so y llamar a make f de test.
 
 A continuación, dejo el README.MD del Autor original, mas adelante su repositorio:
