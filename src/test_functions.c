@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   test_functions.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mfunyu <mfunyu@student.42tokyo.jp>         +#+  +:+       +#+        */
+/*   By: shurtado <shurtado@student.42barcelona.fr> +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/17 17:42:18 by alelievr          #+#    #+#             */
-/*   Updated: 2022/10/30 09:25:38 by ladloff          ###   ########.fr       */
+/*   Updated: 2024/10/26 18:06:28 by shurtado         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -7460,7 +7460,6 @@ void			test_ft_lstdelone_nulls(void *ptr) {
 
 			ft_lstdelone(NULL, lstdelone_f);
 			ft_lstdelone(node, NULL);
-			free(node);
 			);
 }
 
